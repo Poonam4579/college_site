@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main_conatiner{
+display: flex;
+flex-direction: row;
+
+/* justify-content: space-between; */
+
+}
+.for_logo{
+ width: 10%;
+height: 90px;
+margin-right: 10%;
+
+}
+.for_logo img{
+  width: 100%;
+ 
+}
+.for_btns{
+  display: flex;
+flex-direction: row;
+column-gap: 2.5% ;
+
+}
+.for_link_btns{
+text-decoration: none;
+position: relative;
+top: 40%;
+font-size: 1.1rem;
+
+}
+.for_link_btns{
+  text-decoration: underline;
+}
+.for_simple_btns{
+background:none;
+border: none;
+position: relative;
+top: 40%;
+font-size: 1.1rem;
+color: white;
+
+}
+.for_simple_btns:hover{
+  text-decoration: underline;
+}
+.link_conatiner{
+display: flex;
+flex-direction: column;
+/* border: 1px solid red; */
+position: absolute;
+top: 13%;
+row-gap: 5%;
+
+}
+.link_btn{
+  text-decoration: none;
+  color: white;
+   
+}
+.link_btn:hover{
+  text-decoration: underline;
+}

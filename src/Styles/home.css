@@ -1,0 +1,7 @@
+.hero_section{
+  background-image:url('src/assets/hero_background.jpg') ;
+  background-size: cover;
+ /* filter: brightness(30%) blur(2px); */
+  height: 850px;
+  width: 100%;
+}
