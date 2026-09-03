@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Federant&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
 body{
   margin: 0;
   padding: 0;
@@ -5,8 +9,6 @@ body{
 .main_conatiner{
 display: flex;
 flex-direction: row;
-
-/* justify-content: space-between; */
 
 }
 .for_logo{
@@ -23,6 +25,7 @@ margin-right: 10%;
   display: flex;
 flex-direction: row;
 column-gap: 2.5% ;
+ 
 
 }
 .for_link_btns{
@@ -30,9 +33,12 @@ text-decoration: none;
 position: relative;
 top: 40%;
 font-size: 1.1rem;
+color: white;
+/* font-family: "Merriweather", serif; */
+ font-family: "Titillium Web", sans-serif;
 
 }
-.for_link_btns{
+.for_link_btns:hover{
   text-decoration: underline;
 }
 .for_simple_btns{
@@ -42,7 +48,8 @@ position: relative;
 top: 40%;
 font-size: 1.1rem;
 color: white;
-
+/* font-family: "Merriweather", serif; */
+ font-family: "Titillium Web", sans-serif;
 }
 .for_simple_btns:hover{
   text-decoration: underline;
@@ -50,17 +57,29 @@ color: white;
 .link_conatiner{
 display: flex;
 flex-direction: column;
-/* border: 1px solid red; */
+/* border: 0.1px solid rgb(255, 255, 255); */
+/* box-shadow: 0.2px 0.2px 1px 1px rgb(134, 134, 134); */
+background-color: rgba(255, 255, 255, 0.185);
 position: absolute;
-top: 13%;
+top: 72%;
 row-gap: 5%;
+height:fit-content;
+max-height:220px;
+width: fit-content;
+min-width: 12%;
+padding-top: 1%;
+border-radius: 5px;
+padding-left:0.5%;
 
 }
 .link_btn{
   text-decoration: none;
-  color: white;
-   
+  color: rgb(0, 0, 0);
+   font-size: 1rem;
+   margin:3%;
+    font-family: "Titillium Web", sans-serif;
 }
 .link_btn:hover{
   text-decoration: underline;
+  color:#67c7ff;
 }

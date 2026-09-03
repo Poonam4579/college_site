@@ -17,7 +17,7 @@ const Navbar = () => {
 
       <div className='for_btns'>
   {/* HOME LINK */}
-       <div> <Link to='/' className='for_link_btns link_btn'> Home </Link></div>
+       <div> <Link to='/' className='for_link_btns'> Home </Link></div>
         
   {/* ABOUT BUTTON */}
       <div onMouseEnter={() => setAbout_btn_move(true)}
@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
 
 {/* Faculty */}
-     <div> <Link to='/faculty' className='for_link_btns link_btn'> Faculty </Link></div>
+     <div> <Link to='/faculty' className='for_link_btns'> Faculty </Link></div>
 
 {/* Admission elegibilty */}
       <div onMouseEnter={() => setAdmission_btn_move(true)}
@@ -70,7 +70,7 @@ const Navbar = () => {
       {/* NOTICE AND EVENTS */}
       <div onMouseEnter={() => setNotice_btn_move(true)}
         onMouseLeave={() => setNotice_btn_move(false)}>
-        <button className='for_simple_btns link_btn'>Notice/Events</button>
+        <button className='for_simple_btns'>Notice/Events</button>
 
         {Notice_btn_move && (
           <div className='link_conatiner'>
@@ -83,7 +83,7 @@ const Navbar = () => {
       {/* CAMPUS AND GALLERY */}
        <div onMouseEnter={() => setCampus_btn_move(true)}
         onMouseLeave={() => setCampus_btn_move(false)}>
-       <button className='for_simple_btns link_btn'>Campus/Gallery</button>
+       <button className='for_simple_btns '>Campus/Gallery</button>
 
         {Campus_btn_move && (
           <div className='link_conatiner'>
@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
 
       {/* CONTACT */}
-      <div><Link to='/contact' className='for_link_btns link_btn'>Contact</Link></div>
+      <div><Link to='/contact' className='for_link_btns '>Contact</Link></div>
      
         </div>
    </div>

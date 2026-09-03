@@ -22,7 +22,7 @@ import Sports from './Pages/Sports'
 import Hostel from './Pages/Hostel'
 import Contact from './Pages/Contact'
 import Faculty from './Pages/Faculty'
-
+import Explore_programs from './Pages/explore_programs'
 
 const App = () => {
   return (
@@ -51,7 +51,9 @@ const App = () => {
         <Route path='/Library' element={<Library/>} />
         <Route path='/Sports' element={<Sports/>} />
         <Route path='/Hostel' element={<Hostel/>} />
-        <Route path='/Contact' element={<Contact/>} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/explore_programs' element={<Explore_programs />} />
+        
         
       </Routes>
     </div>

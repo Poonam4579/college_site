@@ -1,7 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Federant&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 .hero_section{
-  background-image:url('src/assets/hero_background.jpg') ;
-  background-size: cover;
- /* filter: brightness(30%) blur(2px); */
-  height: 850px;
+  position: relative;
+  height: 530px;
   width: 100%;
+  overflow: hidden;
+}
+.hero_section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../src/assets/image.png');
+  background-size: cover;
+  background-position:  center;
+  filter: brightness(30%) blur(5px);
+  transform: scale (-1);
+  z-index: 0;
+}
+
+.hero_section > * {
+  position: relative;
+  z-index: 1;
+}
+.slogan{
+color: white;
+font-size: 5rem;
+font-family: "Merriweather", serif; 
+position: relative;
+top: 15%;
+left: 2%;
+letter-spacing: 10px;
+width: 70%;
+}
+.programs_link{
+color: white;
+position: relative;
+top: 10%;
+left:3%;
+font-size: 1.1rem;
+}
+.introducation_part{
+height: 400px;
+}
+.intro_heading{
+  font-size: 2.5rem;
+font-family: "Merriweather", serif; 
+text-align: center;
+letter-spacing: 10px;
+position: relative;
+top: 10%;
+}
+.intro_para{
+ font-family: "Titillium Web", sans-serif;
+ font-size: 1.2rem;
+ padding: 5%;
+}
+.rating{
+display: flex;
+column-gap: 150px;
+margin-left: 15%;
+
+}
+.box1{
+font-size: 2.5rem;
+font-family: "Merriweather", serif;
+text-align: center;
+width: 20%;
+box-shadow: 1px 1px 1px black;
+color: #67c7ff;
+font-weight: bolder;
+}
+.rating_heading{
+font-family: "Titillium Web", sans-serif;
+font-size: 1.3rem;
+color: black;
+font-weight: 500;
+}
+.why_choose{
+  padding-left: 5%;
+  text-decoration: underline;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 2px;
+  /* padding-bottom: 2%; */
+  font-weight: 500;
+
+}
+.popular_programs{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+
+}
+.programs_2nd_small_container{
+text-align: center;
+border: 1px solid rgba(70, 70, 70, 0.224);
+}
+.program_heading{
+position: relative;
+top: 70%;
+font-size: 1.2rem;
+text-align: left;
+padding-left: 20%;
+color: white;
+z-index: 1;
+font-family: "Merriweather", serif
+}
+
+.img_of_programs{
+/* border: 1px solid rgb(0, 38, 255); */
+border-radius: 5px;
+width: 90%;
+height: 400px;
+filter: brightness(50%) blur(1px)
+}
+.img_of_programs:hover{
+  width: 91%;
+  height: 410px;
+  filter: brightness(90%) blur(0px)
+}
+.img_of_programs img{
+
+}
+.programs_learn_btn{
+border: 1px solid rgb(255, 255, 255);
+background: none;
+position: relative;
+bottom: 12%;
+height: 30px;
+color: white;
+width: 60%;
+font-family: "Titillium Web", sans-serif;
+font-weight: 600;
+}
+.programs_learn_btn:hover{
+  width: 61%;
+  height: 32px;
+font-size: 0.9rem;
+box-shadow: 1px 1px 1px grey;
+}
+.programs_learn_btn:active{
+  border: 1.9px solid white; 
+}
+.programs_main_heading{
+  font-family: "Merriweather", serif;
+  color: #67c7ff;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 3rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+.recent_news{
+display: flex;
+flex-direction: row;
+background-color: #67c7ff;
+margin-top: 10%;
+color: white;
+
+}
+.news-info-container{
+margin: 1%;
+}
+.recent_news-heading{
+font-family: "Merriweather", serif;
+font-size: 2.8rem;
+letter-spacing: 0.8rem;
+font-weight: 900;
+
+}
+.news-name{
+font-family: "Titillium Web", sans-serif;
+font-size: 1.9rem;
+margin-bottom: 2%;
+}
+.news_date{
+font-family: "Titillium Web", sans-serif;
+margin: 0;
+letter-spacing: 0.2rem;
+}
+.about-news{
+font-family: "Titillium Web", sans-serif;
+font-size: 0.9rem;
+margin: 0;
+}
+.image-Container{
+margin: 3%;
+
+}
+.news_actual-image{
+  min-height: 350px;
+ border-radius: 2px;
+ margin-top: 4%;
+}
+.arrow-btns{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  margin:1%;
+}
+.arrow-btns:hover{
+  font-size: 1.8rem;
+  color: rgb(214, 246, 253);
+}
+.arrow-btns:active{
+ color: white;
+  font-size: 1.5rem;
 }
