@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Addmission_eligibility = () => {
   return (
-    <div>Addmission_eligibility</div>
+     <div>
+      <Navbar />
+    </div>
   )
 }
 

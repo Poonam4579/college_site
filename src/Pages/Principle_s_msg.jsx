@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Principle_s_msg = () => {
   return (
-    <div>Principle_s_msg</div>
+     <div>
+      <Navbar />
+    </div>
   )
 }
 

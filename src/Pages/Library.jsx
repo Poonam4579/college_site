@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Library = () => {
   return (
-    <div>Library</div>
+     <div>
+      <Navbar />
+    </div>
   )
 }
 

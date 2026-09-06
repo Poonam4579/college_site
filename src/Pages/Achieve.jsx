@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Achieve = () => {
   return (
-    <div>Achieve</div>
+   <div>
+      <Navbar />
+    </div>
   )
 }
 

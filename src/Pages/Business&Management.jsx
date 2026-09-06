@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Business_Management = () => {
   return (
-    <div>Business&Management</div>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 

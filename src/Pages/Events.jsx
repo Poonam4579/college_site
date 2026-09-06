@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Events = () => {
   return (
-    <div>Events</div>
+     <div>
+      <Navbar />
+    </div>
   )
 }
 

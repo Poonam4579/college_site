@@ -9,7 +9,7 @@ body{
 .main_conatiner{
 display: flex;
 flex-direction: row;
-
+background-color: #1e2939;
 }
 .for_logo{
  width: 10%;
@@ -31,7 +31,7 @@ column-gap: 2.5% ;
 .for_link_btns{
 text-decoration: none;
 position: relative;
-top: 40%;
+top: 55%;
 font-size: 1.1rem;
 color: white;
 /* font-family: "Merriweather", serif; */
@@ -45,7 +45,7 @@ color: white;
 background:none;
 border: none;
 position: relative;
-top: 40%;
+top: 55%;
 font-size: 1.1rem;
 color: white;
 /* font-family: "Merriweather", serif; */
@@ -59,22 +59,22 @@ display: flex;
 flex-direction: column;
 /* border: 0.1px solid rgb(255, 255, 255); */
 /* box-shadow: 0.2px 0.2px 1px 1px rgb(134, 134, 134); */
-background-color: rgba(255, 255, 255, 0.185);
+background-color: rgba(41, 58, 71, 0.893);
 position: absolute;
-top: 72%;
+top: 30%;
 row-gap: 5%;
 height:fit-content;
-max-height:220px;
+max-height:350px;
 width: fit-content;
-min-width: 12%;
+min-width: 22%;
 padding-top: 1%;
 border-radius: 5px;
 padding-left:0.5%;
-
+z-index: 1;
 }
 .link_btn{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(243, 243, 243);
    font-size: 1rem;
    margin:3%;
     font-family: "Titillium Web", sans-serif;

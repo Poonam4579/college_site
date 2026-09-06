@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 const Addimission_fee = () => {
   return (
-    <div>Addimission_fee</div>
+     <div>
+      <Navbar />
+    </div>
   )
 }
 
