@@ -1,18 +1,20 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import '../Styles/home.css'
+import '../Styles/About.css'
+import Footer from '../Components/footer'
 
 const Vision = () => {
   return (
-    <div>
+    <div className='about-section'>
       <Navbar />
       <h1 className='main-mission-heading'>Mission and Vision</h1>
-
+<hr />
       <section className='mission'>
-        <h2 className='2nd-mission-heading'>Mission statement</h2>
+        <h2 className='second_mission_heading'>Mission statement</h2>
         <p className='about-mission'>Our mission is to provide quality education that develops knowledge, creativity, critical thinking, and practical skills. We aim to create an inclusive and inspiring learning environment where students can discover their potential, become responsible citizens, and prepare confidently for successful careers and meaningful contributions to society.</p>
-        <h3>Mission Anchor Points</h3>
-      <p>
+        <p className='heading-anchor'>Mission Anchor Points</p>
+      <p className='anchor-paragraph'>
           There are 6 Missional Anchor Points, which keep us grounded in our identity and calling.
 
 Booth University College is committed to:
@@ -28,12 +30,16 @@ Improving and maintaining organizational effectiveness across all areas (governa
 
       <section className='stratgy'>
         <h2 className='stratgy-heading'>Strategic Plan</h2>
-        <h3>Toward a Flourishing Future</h3>
-        <p>Booth University College is in a season of transformation. As a community, we have recounted our story, reinforced our mission, reclaimed our calling, reshaped our strategy, and re-envisioned our goals. This document provides an overview of this work and plots a course toward a flourishing future. Additionally, it extends an invitation to participate with us in bringing this vision to fruition.</p>
+        <h3 className='stratgy-heading-two'>Toward a Flourishing Future</h3>
+        <p className='stratgy-paragraph'>Booth University College is in a season of transformation. As a community, we have recounted our story, reinforced our mission, reclaimed our calling, reshaped our strategy, and re-envisioned our goals. This document provides an overview of this work and plots a course toward a flourishing future. Additionally, it extends an invitation to participate with us in bringing this vision to fruition.</p>
       </section>
+
+      <Footer />
     </div>
+    
   )
 }
+
 
 export default Vision
 

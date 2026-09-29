@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Federant&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.about-section{
+ 
+}
+.main-mission-heading{
+margin: 10% 3%;
+font-family: "Merriweather", serif; 
+font-size: 3.5rem;
+}
+.mission{
+
+}
+.second_mission_heading{
+margin: 3%;
+font-family: "Merriweather", serif; 
+font-size: 2.5rem;
+}
+.about-mission{
+margin: 3%;
+font-size: 1.5rem;
+ font-family: "Titillium Web", sans-serif;
+}
+.heading-anchor{
+margin: 3%;
+font-size: 2rem;
+font-family: "Titillium Web", sans-serif;
+}
+.anchor-paragraph{
+margin: 3%;
+font-size: 1.2rem;
+font-family: "Titillium Web", sans-serif;
+}
+.stratgy{
+background-color: rgb(234, 234, 234);
+}
+.stratgy-heading{
+margin: 3%;
+padding-top: 7%;
+font-family: "Merriweather", serif; 
+font-size: 2rem;
+}
+.stratgy-heading-two{
+margin: 3%;
+font-family: "Titillium Web", sans-serif;
+font-weight: 400;
+font-size: 1.7rem;
+
+}
+.stratgy-paragraph{
+  margin: 3%;
+  padding-bottom: 5%;
+  font-size: 1.2rem;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* HISTORY SECTION STARTS FORM HERE */
+.history-section{
+
+}
+.history{
+
+}
+.main_history_heading{
+font-size: 2.2rem;
+ font-family: "Merriweather", serif; 
+ padding:5%;
+}
+.about_all_history{
+padding: 5%;
+font-size: 1.2rem;
+ font-family: "Titillium Web", sans-serif;
+}
+.about_founder_section{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: rgb(234, 234, 234);
+padding: 5%;
+}
+.about_founder{
+padding: 2%;
+
+}
+.founder_heading{
+font-size: 2rem;
+ font-family: "Merriweather", serif;
+}
+.about_founder{
+font-size: 1.1rem;
+ font-family: "Titillium Web", sans-serif;
+ width: 95%;
+}
+.founder_img{
+  /* padding: 2%; */
+padding-right: 5%;
+padding-top: 10%;
+}
+.founder_img img{
+ width: 100%;
+ 
+}
+.current_section{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 9%;
+margin-bottom: 7%;
+}
+.about_current_section{
+
+}
+.current_heading{
+font-size: 2rem;
+ font-family: "Merriweather", serif;
+}
+.about_currrent_para{
+font-size: 1.1rem;
+ font-family: "Titillium Web", sans-serif;
+ width: 95%;
+ padding: 2%;
+}
+.current_img{
+padding: 2%;
+}

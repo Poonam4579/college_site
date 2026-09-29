@@ -17,10 +17,10 @@ const Navbar = () => {
 
       <div className='for_btns'>
   {/* HOME LINK */}
-       <div> <Link to='/' className='for_link_btns'> Home </Link></div>
+       <div className='all-btns'> <Link to='/' className='for_link_btns'> Home </Link></div>
         
   {/* ABOUT BUTTON */}
-      <div onMouseEnter={() => setAbout_btn_move(true)}
+      <div className='all-btns' onMouseEnter={() => setAbout_btn_move(true)}
         onMouseLeave={() => setAbout_btn_move(false)} >
         <button className='for_simple_btns'>About</button>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
 
 {/* DEPARTMENTS / COURSES */}
-      <div onMouseEnter={() => setDepartments_btn_move(true)}
+      <div className='all-btns' onMouseEnter={() => setDepartments_btn_move(true)}
         onMouseLeave={() => setDepartments_btn_move(false)}>
         <button className='for_simple_btns'>Departments/Courses</button>
 
@@ -50,10 +50,10 @@ const Navbar = () => {
       </div>
 
 {/* Faculty */}
-     <div> <Link to='/faculty' className='for_link_btns'> Faculty </Link></div>
+     <div className='all-btns'> <Link to='/faculty' className='for_link_btns'> Faculty </Link></div>
 
 {/* Admission elegibilty */}
-      <div onMouseEnter={() => setAdmission_btn_move(true)}
+      <div className='all-btns' onMouseEnter={() => setAdmission_btn_move(true)}
         onMouseLeave={() => setAdmission_btn_move(false)}>
         <button className='for_simple_btns'>Addmissions</button>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
       </div>
      
       {/* NOTICE AND EVENTS */}
-      <div onMouseEnter={() => setNotice_btn_move(true)}
+      <div className='all-btns' onMouseEnter={() => setNotice_btn_move(true)}
         onMouseLeave={() => setNotice_btn_move(false)}>
         <button className='for_simple_btns'>Notice/Events</button>
 
@@ -81,7 +81,7 @@ const Navbar = () => {
       </div>
      
       {/* CAMPUS AND GALLERY */}
-       <div onMouseEnter={() => setCampus_btn_move(true)}
+       <div className='all-btns' onMouseEnter={() => setCampus_btn_move(true)}
         onMouseLeave={() => setCampus_btn_move(false)}>
        <button className='for_simple_btns '>Campus/Gallery</button>
 
@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
 
       {/* CONTACT */}
-      <div><Link to='/contact' className='for_link_btns '>Contact</Link></div>
+      <div className='all-btns'><Link to='/contact' className='for_link_btns '>Contact</Link></div>
      
         </div>
    </div>

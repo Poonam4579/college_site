@@ -15,28 +15,22 @@ background-color: #1e2939;
  width: 10%;
 height: 90px;
 margin-right: 10%;
-
 }
 .for_logo img{
   width: 100%;
- 
 }
 .for_btns{
-  display: flex;
+display: flex;
 flex-direction: row;
 column-gap: 2.5% ;
- 
-
 }
 .for_link_btns{
 text-decoration: none;
-position: relative;
-top: 55%;
+/* position: relative;
+top: 55%; */
 font-size: 1.1rem;
 color: white;
-/* font-family: "Merriweather", serif; */
- font-family: "Titillium Web", sans-serif;
-
+font-family: "Titillium Web", sans-serif;
 }
 .for_link_btns:hover{
   text-decoration: underline;
@@ -44,11 +38,10 @@ color: white;
 .for_simple_btns{
 background:none;
 border: none;
-position: relative;
-top: 55%;
+/* position: relative;
+top: 55%; */
 font-size: 1.1rem;
 color: white;
-/* font-family: "Merriweather", serif; */
  font-family: "Titillium Web", sans-serif;
 }
 .for_simple_btns:hover{
@@ -57,29 +50,34 @@ color: white;
 .link_conatiner{
 display: flex;
 flex-direction: column;
-/* border: 0.1px solid rgb(255, 255, 255); */
-/* box-shadow: 0.2px 0.2px 1px 1px rgb(134, 134, 134); */
 background-color: rgba(41, 58, 71, 0.893);
 position: absolute;
-top: 30%;
-row-gap: 5%;
+/* top: 100%; */
+margin-top: 7px;
+row-gap: 10px;
 height:fit-content;
-max-height:350px;
+max-height:400px;
 width: fit-content;
 min-width: 22%;
-padding-top: 1%;
+padding-top: 1px;
 border-radius: 5px;
 padding-left:0.5%;
-z-index: 1;
+z-index: 10;
 }
+
 .link_btn{
   text-decoration: none;
   color: rgb(243, 243, 243);
    font-size: 1rem;
-   margin:3%;
+   margin:1%;
     font-family: "Titillium Web", sans-serif;
 }
+
 .link_btn:hover{
   text-decoration: underline;
   color:#67c7ff;
 }
+.all-btns{
+  padding-top: 7%;
+}
+
